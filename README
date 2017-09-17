@@ -1,0 +1,60 @@
+########################################################
+########################################################
+salomeToROOT 
+
+Is a tool developed at UNAM Engineering 
+Institute as part of the research group GITA, aims 
+to be a bridge enters tools and platform salome ROOT 
+framework is the first version of this tool, therefore 
+limited to only 6 basic geometric primitives.
+Currently the group is developing a person and began 
+in July 2012.
+Distributed under the GNU GPL
+
+
+########################################################
+########################################################
+System Requirements
+ 
+• GNU/LINUX 
+• Compiler gcc
+• Compiler bison
+• Compiler flex
+
+########################################################
+########################################################
+Installation
+
+There is a makefile, so installation is simple the 
+steps are:
+
+• SalomeToROOT.tar.gz Unzip the file in / opt
+
+	> cd /opt
+
+•We enter the folder salomeToROOT: 
+
+	> cd salomeToROOT
+
+•Run the command make:
+
+	> make
+
+•Execute with superuser permission command 
+make install:
+
+	# make install
+
+Further options include uninstall and
+clean, to uninstall and clean respectively. 
+
+########################################################
+########################################################
+Use
+
+salomeToROOT is a command line tool, to be used from the 
+command line call the translator with the following syntax:
+
+	salomeToROOT name_file.py
+
+
